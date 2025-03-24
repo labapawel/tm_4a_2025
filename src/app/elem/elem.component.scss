@@ -1,0 +1,19 @@
+.pierwiastek {
+    display: flex;
+    flex-direction: column;
+    border:1px solid black;
+    padding: 5px;
+    p {
+        text-align: center;
+    }
+    .group {
+        display: flex;
+        justify-content: space-between;
+        .symbol {
+            font-weight: bold;
+        }
+        .masa {
+            font-size: 0.8em;
+        }
+    }
+}
