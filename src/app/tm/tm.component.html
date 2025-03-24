@@ -1,0 +1,4 @@
+<div class="tm">
+    <app-elem *ngFor="let item of dane" [pierwiastek]="item" 
+        (ngStyle)="{'grid-columns-start': item.y,'grid-rows-start': item.x }"></app-elem>
+</div>
