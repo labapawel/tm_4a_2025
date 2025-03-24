@@ -1,12 +1,12 @@
 import { Component } from '@angular/core';
 import { TmService } from '../tm.service';
-import { NgFor, NgStyle } from '@angular/common';
+import { NgClass, NgFor, NgStyle } from '@angular/common';
 import { ElemComponent } from '../elem/elem.component';
 
 @Component({
   selector: 'app-tm',
   standalone: true,
-  imports: [NgFor, ElemComponent, NgStyle],
+  imports: [NgFor, ElemComponent, NgStyle, NgClass],
   templateUrl: './tm.component.html',
   styleUrl: './tm.component.scss'
 })
